@@ -1,7 +1,7 @@
 import random
-class DishClass():
-    def __init__(self, name):
-        self.dish_name = name
+class Dish():
+    def __init__(self, dish_name):
+        self.name = dish_name
 name = input("What would you like? ")
 dishes_list = name.split(',')
 if name.strip() !=(""):
